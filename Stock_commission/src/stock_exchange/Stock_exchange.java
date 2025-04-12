@@ -13,7 +13,7 @@ public class Stock_exchange {
 		share_price=keyboard.nextInt();
 		while(share_price<=0 || share_price>500) {
 			System.out.print("Invalid share price must be between 0 and 500");
-			System.out.print("\nEnter the price of price:");
+			System.out.print("\nEnter the price of share:");
 			share_price=keyboard.nextInt();
 		}
 		System.out.print("Enter the number of shares:");
